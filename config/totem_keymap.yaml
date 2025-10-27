@@ -1,0 +1,140 @@
+layout: {zmk_keyboard: totem}
+layers:
+  BASE:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - {t: A, h: LEFT SHIFT}
+    - {t: S, h: LALT}
+    - {t: D, h: LCTRL}
+    - {t: F, h: LEFT COMMAND}
+    - G
+    - H
+    - {t: J, h: RIGHT COMMAND}
+    - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RIGHT SHIFT}
+  - [GLOBE, Z, X, C, V, B, N, M, ',', .]
+  - - /
+    - /
+    - ESC
+    - {t: SPACE, h: '1'}
+    - LEFT SHIFT
+    - {t: RET, h: '2'}
+    - {t: BACKSPACE, h: NUM}
+    - TAB
+  '1':
+  - - {t: ▽, type: trans}
+    - Gui+X
+    - Gui+C
+    - Gui+V
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PAGE DOWN
+    - PAGE UP
+    - ''
+    - {t: ▽, type: trans}
+  - - LEFT SHIFT
+    - LEFT ALT
+    - LEFT CONTROL
+    - LEFT COMMAND
+    - {t: ▽, type: trans}
+    - LEFT ARROW
+    - DOWN ARROW
+    - UP ARROW
+    - RIGHT ARROW
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Sft+Gui+4
+    - Ctl+Alt+C
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PREVIOUS
+    - VOL DN
+    - VOLUME UP
+    - NEXT
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PLAY PAUSE
+  NUM:
+  - - {t: ▽, type: trans}
+    - '7'
+    - '8'
+    - '9'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - '4'
+    - '5'
+    - '6'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LGUI
+    - LCTRL
+    - LALT
+    - RSHFT
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '3'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - +
+    - '0'
+    - '-'
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+  '2':
+  - - '`'
+    - '&'
+    - '*'
+    - '~'
+    - '"'
+    - {t: ▽, type: trans}
+    - '{'
+    - '}'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - $
+    - '%'
+    - ^
+    - ''''
+    - {t: ▽, type: trans}
+    - (
+    - )
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '!'
+    - '@'
+    - '#'
+    - '|'
+    - {t: ▽, type: trans}
+    - '['
+    - ']'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '='
+    - {t: ▽, type: trans}
+    - _
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}

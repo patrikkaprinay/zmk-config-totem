@@ -28,6 +28,17 @@
 / {
     combos { compatible = "zmk,combos"; };
 
+    behaviors {
+        ctrl_option_command: ctrl_option_command {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CTRL_OPTION_COMMAND";
+            bindings = <&kp LA(LEFT_COMMAND)>, <&none>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -52,7 +63,7 @@
             bindings = <
            &kp Q             &kp W       &kp E        &kp R               &kp T             &kp Y      &kp U                &kp I        &kp O       &kp P
            &mt LEFT_SHIFT A  &mt LALT S  &mt LCTRL D  &mt LEFT_COMMAND F  &kp G             &kp H      &mt RIGHT_COMMAND J  &mt RCTRL K  &mt RALT L  &mt RIGHT_SHIFT SEMI
-&kp GLOBE  &kp Z             &kp X       &kp C        &kp V               &kp B             &kp N      &kp M                &kp COMMA    &kp DOT     &kp FSLH              &kp FSLH
+&kp GLOBE  &kp Z             &kp X       &kp C        &kp V               &kp B             &kp N      &kp M                &kp COMMA    &kp DOT     &kp FSLH              &ctrl_option_command
                                          &kp ESC      &lt 1 SPACE         &kp LEFT_SHIFT    &lt 3 RET  &lt 2 BACKSPACE      &kp TAB
             >;
         };
