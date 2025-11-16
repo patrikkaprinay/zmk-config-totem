@@ -63,7 +63,7 @@
             bindings = <
        &kp Q             &kp W               &kp E           &kp R               &kp T             &kp Y      &kp U                &kp I                &kp O                  &kp P
        &kp A             &kp S               &kp D           &kp F               &kp G             &kp H      &kp J                &kp K                &kp L                  &kp SEMI
-&none  &mt Z LEFT_SHIFT  &mt X LEFT_CONTROL  &mt C LEFT_ALT  &mt V LEFT_COMMAND  &kp B             &kp N      &mt M RIGHT_COMMAND  &mt COMMA RIGHT_ALT  &mt DOT RIGHT_CONTROL  &mt FSLH RIGHT_SHIFT  &ctrl_option_command
+&none  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B             &kp N      &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT FSLH  &ctrl_option_command
                                              &kp ESC         &lt 1 SPACE         &kp LEFT_SHIFT    &lt 3 RET  &lt 2 BACKSPACE      &kp TAB
             >;
         };
