@@ -31,7 +31,7 @@
 
         alt-tab {
             bindings = <&kp RA(TAB)>;
-            key-positions = <18 37>;
+            key-positions = <18 34>;
         };
 
         esc {
