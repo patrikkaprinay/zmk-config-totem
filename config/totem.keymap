@@ -100,7 +100,7 @@
 
         SYM {
             bindings = <
-       &none          &kp AMPERSAND  &kp ASTERISK  &kp DOUBLE_QUOTES  &none               &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none
+       &none          &kp AMPERSAND  &kp ASTERISK  &kp DOUBLE_QUOTES  &kp TILDE           &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none
        &kp BACKSLASH  &kp DOLLAR     &kp PERCENT   &kp CARET          &kp SINGLE_QUOTE    &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
 &none  &none          &kp EXCL       &kp AT_SIGN   &kp HASH           &kp PIPE            &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &none  &none
                                      &kp EQUAL     &none              &kp UNDERSCORE      &none  &none                 &none
