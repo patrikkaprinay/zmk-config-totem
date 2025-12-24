@@ -38,6 +38,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <16 17>;
         };
+
+        alt {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <11 34>;
+        };
     };
 
     behaviors {
