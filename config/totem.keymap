@@ -113,13 +113,22 @@
             >;
         };
 
-        layer_4 {
+        EXT {
             bindings = <
         &trans  &kp F7  &kp F8  &kp F9  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans
         &trans  &kp F4  &kp F5  &kp F6  &trans    &trans        &trans        &trans        &trans  &trans
 &trans  &trans  &kp F1  &kp F2  &kp F3  &trans    &trans        &trans        &trans        &trans  &trans  &bt BT_CLR_ALL
                         &trans  &trans  &trans    &trans        &trans        &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        Extra {
+            if-layers = <1 2>;
+            then-layer = <4>;
         };
     };
 };
