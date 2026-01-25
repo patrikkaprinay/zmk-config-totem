@@ -97,10 +97,10 @@
 
         NUM {
             bindings = <
-       &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none        &none  &none              &none              &none          &none
-       &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none        &none  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_SHIFT
-&none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none        &none  &none              &none              &none          &none            &none
-                            &kp PLUS      &kp N0        &kp MINUS    &none  &none              &none
+       &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none        &none  &kp LEFT_BRACE                      &kp RIGHT_BRACE                      &none          &none
+       &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none        &none  &mt RIGHT_COMMAND LEFT_PARENTHESIS  &mt RIGHT_CONTROL RIGHT_PARENTHESIS  &kp RIGHT_ALT  &kp RIGHT_SHIFT
+&none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none        &none  &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                    &none          &none            &none
+                            &kp PLUS      &kp N0        &kp MINUS    &none  &none                               &none
             >;
         };
 
