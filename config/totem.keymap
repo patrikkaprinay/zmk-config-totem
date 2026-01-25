@@ -97,9 +97,9 @@
 
         NUM {
             bindings = <
-       &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EXCLAMATION    &kp DOLLAR     &kp LEFT_BRACE                      &kp RIGHT_BRACE                      &none          &none
-       &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AT_SIGN        &kp AMPERSAND  &mt RIGHT_COMMAND LEFT_PARENTHESIS  &mt RIGHT_CONTROL RIGHT_PARENTHESIS  &kp RIGHT_ALT  &kp RIGHT_SHIFT
-&none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH           &kp ASTERISK   &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                    &none          &none            &none
+       &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EXCLAMATION    &kp DOLLAR     &kp LEFT_BRACE                      &kp RIGHT_BRACE                      &kp APOSTROPHE  &none
+       &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AT_SIGN        &kp AMPERSAND  &mt RIGHT_COMMAND LEFT_PARENTHESIS  &mt RIGHT_CONTROL RIGHT_PARENTHESIS  &kp RIGHT_ALT   &kp RIGHT_SHIFT
+&none  &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH           &kp ASTERISK   &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                    &none           &none            &none
                             &kp PLUS      &kp N0        &kp MINUS          &none          &none                               &none
             >;
         };
