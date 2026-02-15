@@ -55,6 +55,34 @@
             #binding-cells = <0>;
             mods = <(MOD_LCTL)>;
         };
+
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <35 36 37 26 27 15 5 17 6 16 7 28 8 18 29 9 19 30 31 32 33 34>;
+        };
+
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <34 33 32 35 36 37 14 25 13 4 3 2 12 23 24 22 21 10 0 1 11 20>;
+        };
     };
 
     keymap {
@@ -79,10 +107,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q             &kp W           &kp E               &kp R               &kp T      &kp Y      &kp U                &kp I                &kp O            &kp P
-       &mt LEFT_SHIFT A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_COMMAND F  &kp G      &kp H      &mt RIGHT_COMMAND J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT SEMI
-&none  &kp Z             &kp X           &kp C               &kp V               &kp B      &kp N      &kp M                &kp COMMA            &kp PERIOD       &kp SLASH             &ctrl_option_command
-                                         &kp ESC             &lt 1 SPACE         &kp TAB    &lt 3 RET  &lt 2 BACKSPACE      &kp LEFT_SHIFT
+       &kp Q              &kp W            &kp E                &kp R                &kp T      &kp Y      &kp U                 &kp I                 &kp O             &kp P
+       &hml LEFT_SHIFT A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_COMMAND F  &kp G      &kp H      &hmr RIGHT_COMMAND J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_SHIFT SEMI
+&none  &kp Z              &kp X            &kp C                &kp V                &kp B      &kp N      &kp M                 &kp COMMA             &kp PERIOD        &kp SLASH              &ctrl_option_command
+                                           &kp ESC              &lt 1 SPACE          &kp TAB    &lt 3 RET  &lt 2 BACKSPACE       &kp LEFT_SHIFT
             >;
         };
 
