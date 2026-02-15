@@ -35,11 +35,6 @@
             key-positions = <18 34>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <16 17>;
-        };
-
         alt {
             bindings = <&kp LA(TAB)>;
             key-positions = <11 34>;
@@ -57,7 +52,6 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             hold-trigger-on-release;
-            hold-trigger-key-positions = <35 36 37 26 27 15 5 17 6 16 7 28 8 18 29 9 19 30 31 32 33 34>;
         };
 
         hmr: hmr {
@@ -70,7 +64,6 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             hold-trigger-on-release;
-            hold-trigger-key-positions = <34 33 32 35 36 37 14 25 13 4 3 2 12 23 24 22 21 10 0 1 11 20>;
         };
     };
 
